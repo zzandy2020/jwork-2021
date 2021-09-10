@@ -4,7 +4,7 @@
 
 类型设计（建模）如下：
 
-![](http://www.plantuml.com/plantuml/png/RP2nKiCm44HxVOLBAF8BJ4XQQ1Xwvh0NwoQonDoTGn7uTv2iAC7WocztRtLpMpKIcwVW-a2gtGuSHrTXBo2R1Tt9kUxdusYT1mNp3ScC-aF30M-8YYMkxw33SxgvBHHO3N61EbP1q8EFkFz7Uqf5-Jflz9YY6kJK7fnevFxYv_oV3CYo_i0JMn6FYOUiliYgVa-1NadzJfBvNF6h-DBu0HwzPRUTQBFvlAlNozbhhWijqdcWf23NNlrtgosAryQsYCCyXMy0)
+![](http://www.plantuml.com/plantuml/png/RP6nKeOm48JxF4LABNW51w7Lnh5tpd2I6qBY90SMwBjBGWYWFnNVxjvoSzI1mVCq6g4CX20R9DkB3Ar7uCcZN8IGwqEMfKOmh0i2CwYXO8SVQ0DkyV29CBowk_j4XWAZpR2DPV2ea6PylA6zkAJyx1izExks-ALyS8IUrE77_ByC0aVzYKRY9CwEkgY--J_rBHXuXw0RxrZ7YalnqVY5r6kERZbHLNq_vEl5x9dpGfkq3wJKsSdluh93zifGZRPRVzOl)
 
 
 桥段场景如下：
