@@ -1,68 +1,75 @@
-' https://www.bilibili.com/video/BV1zQ4y1d7dQ?p=3
-' 2:50 ~ 3:46
+' https://www.bilibili.com/video/BV1zQ4y1d7dQ?p=19
+' 2:38 ~ 4:00
 
 @startuml
-actor       老头   as oldman 
-actor       蛇精    as snake  #Black 
-actor       蝎子精    as scorpion   #Purple 
-entity      蛛网  as spiderweb #White
+actor       葫芦小金刚   as CalabashBrother
+actor       黑吃黑    as RockMonster  #Black 
+actor       小岩石 as Rock1 #Grey
+actor       大岩石 as Rock2 #Grey
 
-spiderweb -[#Green]> spiderweb : 开 
 
-snake -[#Grey]> oldman : 告诉
-note right
-    老人家，
-    你和我无冤无仇，
-    这次请你来...
+RockMonster   -[#Grey]> CalabashBrother : 大笑
+note left
+    嘿嘿嘿嘿嘿嘿嘿嘿嘿！
 end note
 
-oldman -[#Grey]> snake : 告诉
-note left: 哼!有这么请的么？
-
-snake -[#Grey]> oldman : 告诉
-note right
-老人家，冤仇易解不宜结，
-我们攀个亲家交个朋友，
-你可以安度晚年
+RockMonster   -[#Grey]> CalabashBrother : 告诉
+note left
+    你是哪里来的小毛孩子，
+    胆子可不小啊，
+    你竟敢闯到这里来找死！
 end note
 
-scorpion -[#Grey]> oldman : 告诉
+CalabashBrother   -[#Grey]> RockMonster : 告诉
 note right
-    这是我们的一片诚意啊！
-    哈哈哈哈哈哈哈...
+    呔！你是什么妖魔鬼怪，快报上名来！
 end note
 
-snake -[#Grey]> oldman : 告诉
-note right: 来来来，我先敬你一杯
-
-oldman -[#Grey]> snake : 告诉
-note left: 去你的
-
-oldman -[#Red]> snake : 造成伤害
-note left: 掌掴
-
-scorpion -[#Blue]> scorpion : 发怒
-note right: 哇呀呀呀呀呀...
-
-scorpion -[#Blue]> scorpion : 前进
-
-scorpion -[#Grey]> oldman : 告诉
-
-note right: 你是不想活了你
-
-scorpion -[#Red]> oldman : 造成伤害
-note left: 掐
-
-snake -[#Grey]> scorpion : 告诉
-note right
-    大王，别急，
-    留着这老头才能摸清葫芦的奥秘，
-    知己知彼才能消灾灭祸
+RockMonster   -[#Grey]> CalabashBrother : 告诉
+note left
+    你口气可真大，你知道我是谁吗？
+    我可是有眼睛有嘴巴有鼻子，
+    我的名字是黑吃黑！
 end note
 
-scorpion -[#Blue]> scorpion : 转眼珠
+CalabashBrother   -[#Grey]> RockMonster : 告诉
+note right
+    什么黑吃黑白吃白的，有本事快亮出来！
+end note
 
-spiderweb -[#Green]> spiderweb : 关 
+RockMonster   -[#Black]> Rock1 : 使用黑雾龙卷
+
+RockMonster   -[#Blue]> Rock1 : 吃下
+RockMonster   -[#Green]> RockMonster : 攻击上升
+
+RockMonster   -[#Grey]> CalabashBrother : 告诉
+note left
+    我这里不管是石头是人肉是人心是人肺还是狼心狗肺，
+    只要熏黑了吃，可好吃了，
+    哈哈哈哈哈哈哈哈哈！
+    我成年累月光吃石头真吃腻了，
+    今天你送上门来，正好换换口味！
+    哈哈哈哈哈哈哈哈哈！
+end note
+
+RockMonster   -[#Black]> CalabashBrother : 使用黑雾，造成伤害
+
+CalabashBrother   -[#Red]> RockMonster : 使用喷火，造成伤害
+
+RockMonster   -[#Grey]> CalabashBrother : 告诉
+note left
+    嚯嚯嚯嚯嚯嚯，
+    哈哈哈哈哈哈哈哈哈！
+end note
+
+RockMonster   -[#Black]> Rock2 : 使用黑雾龙卷
+
+CalabashBrother   -[#Blue]> Rock2 : 抓住
+CalabashBrother   -[#Blue]> RockMonster : 丢出岩石
+
+RockMonster   -[#Blue]> Rock2 : 吃下
+RockMonster   -[#Red]> RockMonster : 吃不下，受到伤害
+
+RockMonster   -[#Red]> RockMonster : 死亡
 
 @enduml
-
