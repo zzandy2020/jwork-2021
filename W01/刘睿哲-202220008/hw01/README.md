@@ -2,12 +2,12 @@
 
 类型设计（建模）如下
 
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/star20001/jwork-2021/main/W01/刘睿哲-202220008/hw01/uml/character.pu)
+![](http://www.plantuml.com/plantuml/png/XP6nJWCn38RdorFS24DV0HNAqAKI4co8mIG_rwX9NCLEfHFmxYWDGLS6cExpTvQTFrcBKjOIWp4saCXu1v-cNcmoI4l6-6u6dtJSWuBk6vCgsKDZXpSaGIiYipF3esQVfkUNCI9odeqPv0WwFF7LjHc25qMgrAPKoh3m9zmk15drd1fR2g6IbtkGgnJvXFfznOCNWMkyfUDnhYZG7NErdptEZfCeSayJQV9sWHiMDMO8LARzUIc7W1bIcK_8sJjynxvG_Q3BLTiIATL5_tI5yaVJp_MlLXyt_MNEavlf_qqFTcdhz5_Ah95SYU4B)
 
 
 桥段场景如下
 
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/star20001/jwork-2021/main/W01/刘睿哲-202220008/hw01/uml/timeline.pu)
+![](http://www.plantuml.com/plantuml/png/TP7VIiCm5CRlynHz0L-WKDch2Ev2c5velQ_QRPtuPnsT5cjbmbRTNF6FHKlNTWzZJv9UzHKy9IAH8YGGplTzlvEJj0xqhNtzSBT3z1szqrRezGSab-3bHDFuseFkZ4PtR1vf6e7f0poUA1kR2lVw45ofkAcngD8pldQfPJFh4zUNSKo4BZbvjcItAVCzIH8u5MOPZ4yHKcGJC4RKVIxY1OG-X4Ci8hQke1HODRbv1pkki_4v3uwu6HFkN_pmnKajdrpeHkp6P4jRZWiLWzJ9YoI1brSsYOkaXxtGZ4CtKTISKcCaK4AL1w7E2lghAhNOOCw6lIeTDDkLxXlaz_-HVn-doIn3XxwF_pBHBJ59gxstZV-eV0C0)
 
 
 得到的运行结果
