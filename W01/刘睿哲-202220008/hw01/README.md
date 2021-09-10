@@ -2,11 +2,13 @@
 
 类型设计（建模）如下
 
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://https://raw.githubusercontent.com/star20001/jwork-2021/main/W01/刘睿哲-202220008/hw01/uml/character.pu)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/star20001/jwork-2021/main/W01/刘睿哲-202220008/hw01/uml/characters.pu)
+
 
 桥段场景如下
 
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://https://raw.githubusercontent.com/star20001/jwork-2021/main/W01/刘睿哲-202220008/hw01/uml/timeline.pu)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/star20001/jwork-2021/main/W01/刘睿哲-202220008/hw01/uml/timeline.pu)
+
 
 得到的运行结果
 
