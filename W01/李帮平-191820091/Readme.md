@@ -1,13 +1,13 @@
-类型设计（建模）如下：
+类型设计（建模）如下：若图片无法正常显示，请查看uml文件夹下的character.pu和character.png文件
+
 ![](./uml/character.png)
-若图片无法正常显示，可查看uml文件夹的下的character.pu和character.png文件
 
 
 
 
-桥段场景如下：
+桥段场景如下：若图片无法正常显示，可查看uml文件夹的下的timeline.pu和timeline.png文件
+
 ![](./uml/timeline.png)
-若图片无法正常显示，可查看uml文件夹的下的timeline.pu和timeline.png文件
 
 
 
