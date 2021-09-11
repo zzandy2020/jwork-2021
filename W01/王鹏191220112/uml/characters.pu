@@ -1,4 +1,4 @@
-@startuml
+@startuml characters
 
 class Being{
     String name
@@ -15,6 +15,9 @@ class Creature {
 
     speakTo()
     listen()
+    beUntied()
+    beAfraid()
+    beSurprised()
     attack()
     move()
 }
@@ -28,18 +31,19 @@ class Monster{
 
 class Minion{
     untie()
-    beAfraid()
 }
 
 class Human{
     laugh()
     stretchArms()
     takeOut()
+    throwOut()
 }
 
 class Entity{
     int status
     open()
+    beTakenOut()
     shine()
 }
 

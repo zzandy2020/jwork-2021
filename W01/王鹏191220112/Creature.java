@@ -23,9 +23,24 @@ public class Creature extends Being {
 
     public void listen(String something) {
         this.tellName();
-        System.out.println("I heard: " + something);
+        System.out.println("I heard: '" + something + "'");
         memory[memoryOffset] = something;
         memoryOffset = (memoryOffset + 1) % memory.length;
+    }
+
+    public void beUntied() {
+        this.tellName();
+        System.out.println("I'm untied. ");
+    }
+
+    public void beAfraid() {
+        this.tellName();
+        System.out.println("Ah...");
+    }
+
+    public void beSurprised() {
+        this.tellName();
+        System.out.println("What's up? ");
     }
 
     public void attack(Creature creature, int ap) {

@@ -19,8 +19,7 @@ public class Human extends Creature {
         System.out.println("I stretch my arms. ");
     }
 
-    public void takeOut(Being something) {
-        this.tellName();
+    public void takeOut(Entity something) {
         String name = "";
 
         if (something != null) {
@@ -29,7 +28,19 @@ public class Human extends Creature {
             name = "nothing";
         }
 
+        this.tellName();
         System.out.println("I take out " + name + ". ");
+
+        if (something != null) {
+            something.beTakenOut();
+        }
+    }
+
+    public void throwOut(Entity something) {
+        this.tellName();
+        System.out.println("Hey!!!");
+        if (something != null)
+            something.beThrownOut();
     }
 
 }

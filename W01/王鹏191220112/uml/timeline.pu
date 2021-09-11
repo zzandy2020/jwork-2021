@@ -1,7 +1,7 @@
 ' https://www.bilibili.com/video/BV1zQ4y1d7dQ?p=13
 ' 3:05 ~ 4:12
 
-@startuml
+@startuml timeline
 actor       老头    as oldman
 actor       蛇精    as snake    #Black 
 actor       蝎子精  as scorpion #Purple 
