@@ -37,7 +37,7 @@ class Human{
     takeOut()
 }
 
-class Baolian{
+class Entity{
     int status
     open()
     shine()
@@ -48,7 +48,7 @@ Creature --|> Being
 Human --|> Creature
 Monster --|> Creature
 
-Baolian --|> Being
+Entity --|> Being
 
 Minion --|> Monster
 
