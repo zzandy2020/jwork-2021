@@ -1,0 +1,55 @@
+@startuml
+
+class Being{
+    String name
+    tellName()
+    getName()
+}
+
+class Creature {
+
+    int health
+    int attack
+    int defense
+    String[] memory
+
+    speakTo()
+    listen()
+    attack()
+    move()
+}
+
+class Monster{
+    int magic
+    rolleyes()
+    wink()
+    bePissed()
+}
+
+class Minion{
+    untie()
+    beAfraid()
+}
+
+class Human{
+    laugh()
+    stretchArms()
+    takeOut()
+}
+
+class Baolian{
+    int status
+    open()
+    shine()
+}
+
+Creature --|> Being
+
+Human --|> Creature
+Monster --|> Creature
+
+Baolian --|> Being
+
+Minion --|> Monster
+
+@enduml
