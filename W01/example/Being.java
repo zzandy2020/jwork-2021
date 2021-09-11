@@ -1,4 +1,4 @@
-package W01.example;
+/*package W01.example;*/
 
 public class Being {
 
