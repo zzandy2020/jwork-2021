@@ -8,5 +8,9 @@ public class Monster extends Creature{
     public static void main(String args[]){
         Monster Snake = new Monster(100, 5, 0, "Snake");
         Snake.attack(Snake);
-    } 
+    }
+    
+    public void transform(){
+        System.out.println(name + " got much bigger ");
+    }
 }

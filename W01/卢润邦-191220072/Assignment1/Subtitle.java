@@ -3,8 +3,7 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.List;
-
+import java.util.*;
 
 
 public class Subtitle{
@@ -21,23 +20,14 @@ public class Subtitle{
         } 
     }
 
-    public Object next(){
-        String line = contentList.get(index);
-        index++;
-        return line;
-    }
-
-    public boolean hasNext(){
-        if(index < contentList.size())
-            return true;
-        else
-            return false;
+    public ListIterator<String> Iterator(){
+        return contentList.listIterator();
     }
 
     public static void main(String args[]){
         Subtitle s = new Subtitle("Assignment1/Dialogue.txt");
-        while(s.hasNext()){
-            System.out.println(s.next());
-        }
+        ListIterator<String> line = s.Iterator();
+        while(line.hasNext())
+            System.out.println(line.next());
     }
 }
