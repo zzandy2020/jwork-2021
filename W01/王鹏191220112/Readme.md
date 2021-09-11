@@ -4,12 +4,12 @@
 
 类型设计（建模）如下：
 
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/njuics/jwork-2021/master/W01/王鹏-191220112/uml/characters.pu)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Roc136/jwork-2021/master/W01/王鹏-191220112/uml/characters.pu)
 
 
 桥段场景如下：
 
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/njuics/jwork-2021/master/W01/王鹏-191220112/uml/timeline.pu)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Roc136/jwork-2021/master/W01/王鹏-191220112/uml/timeline.pu)
 
 得到运行结果：
 
