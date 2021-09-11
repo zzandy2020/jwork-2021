@@ -4,11 +4,11 @@
 
 类型设计（建模）如下：
 
-![characters](characters.png)
+![characters](https://i.loli.net/2021/09/11/ExZrAIupncRNT4D.png)
 
 桥段场景如下：
 
-![timeline](timeline.png)
+![timeline](https://i.loli.net/2021/09/11/TxSHCnfoyXzajsQ.png)
 
 得到输出
 
