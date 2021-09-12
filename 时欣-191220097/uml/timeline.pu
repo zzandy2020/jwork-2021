@@ -2,65 +2,65 @@
 ' 6:57 ~ 8:32
 
 @startuml
-actor       ÈıÍŞ   as calabashThree 
-actor       Éß¾«    as snake  #Black 
-actor       Ğ«×Ó¾«    as scorpion   #Purple 
+actor       ä¸‰å¨ƒ   as calabashThree 
+actor       è›‡ç²¾    as snake  #Black 
+actor       èå­ç²¾    as scorpion   #Purple 
 
-calabashThree -[#Green]> snake : ¸æËß
-note left: ÎÒÀ´ÁË£¡
+calabashThree -[#Green]> snake : å‘Šè¯‰
+note left: æˆ‘æ¥äº†ï¼
 
-calabashThree -[#Green]> calabashThree : ´òËéÄ§¾µ
+calabashThree -[#Green]> calabashThree : æ‰“ç¢é­”é•œ
 
-snake -[#Grey]> snake : ¾ªÅ­ÇÒÍ´¿à
-scorpion -[#Violet]> scorpion : ÎŞÄÜ¿ñÅ­,º¿ßû´ó¿Ş
-scorpion -[#Violet]> scorpion : ²ü¶¶µÄÊÖÅõ×ÅÏ¡ËéµÄÄ§¾µ
+snake -[#Grey]> snake : æƒŠæ€’ä¸”ç—›è‹¦
+scorpion -[#Violet]> scorpion : æ— èƒ½ç‹‚æ€’,åšå••å¤§å“­
+scorpion -[#Violet]> scorpion : é¢¤æŠ–çš„æ‰‹æ§ç€ç¨€ç¢çš„é­”é•œ
 
 
-calabashThree -[#Green]> snake : ¸æËß
-note left: ÄãÃÇÕâĞ©º¦ÈË¾«»¹²»¿ìÍ¶½µ£¡
+calabashThree -[#Green]> snake : å‘Šè¯‰
+note left: ä½ ä»¬è¿™äº›å®³äººç²¾è¿˜ä¸å¿«æŠ•é™ï¼
 
-snake -[#Grey]> snake : ×ªÑÛÖé
-snake -[#Grey]> snake : ÏùÕÅ´óĞ¦
-snake -[#Grey]> calabashThree : ¸æËß
+snake -[#Grey]> snake : è½¬çœ¼ç 
+snake -[#Grey]> snake : åš£å¼ å¤§ç¬‘
+snake -[#Grey]> calabashThree : å‘Šè¯‰
 note right
-ÄãÆ¾×ÅÒ»Éí¸Ö½îÌú¹Ç¾ÍÈç´Ë¿ä¿Ú£¬
-Äã¿ÉÖªµÀÀÏÄïµÄÀ÷º¦£¡
+ä½ å‡­ç€ä¸€èº«é’¢ç­‹é“éª¨å°±å¦‚æ­¤å¤¸å£ï¼Œ
+ä½ å¯çŸ¥é“è€å¨˜çš„å‰å®³ï¼
 end note 
 
-calabashThree -[#Green]> calabashThree : ²»Ğ¼´óĞ¦
-calabashThree -[#Green]> snake : ¸æËß
-note left: ÄãÓĞÊ²Ã´±¾ÊÂ£¬ÚÀ£¡¾ÍÄÃ³öÀ´°É£¡
+calabashThree -[#Green]> calabashThree : ä¸å±‘å¤§ç¬‘
+calabashThree -[#Green]> snake : å‘Šè¯‰
+note left: ä½ æœ‰ä»€ä¹ˆæœ¬äº‹ï¼Œè¯¶ï¼å°±æ‹¿å‡ºæ¥å§ï¼
 
-snake -[#Grey]> calabashThree : ¸æËß
-note right: ºÃÍÛ£¡
-snake -[#Grey]> calabashThree : »Ó¶¯±¦½£
+snake -[#Grey]> calabashThree : å‘Šè¯‰
+note right: å¥½å“‡ï¼
+snake -[#Grey]> calabashThree : æŒ¥åŠ¨å®å‰‘
 
-calabashThree -[#Green]> calabashThree :¹ş¹ş´óĞ¦
-snake -[#Grey]> snake : ¸Ğµ½±»ºİºİµØÌôĞÆÁË
-snake -[#Grey]> calabashThree : ¸æËß
-note right: ÄãÄÑµÀ²»ÅÂÎÒÕâ±¦½££¿
+calabashThree -[#Green]> calabashThree :å“ˆå“ˆå¤§ç¬‘
+snake -[#Grey]> snake : æ„Ÿåˆ°è¢«ç‹ ç‹ åœ°æŒ‘è¡…äº†
+snake -[#Grey]> calabashThree : å‘Šè¯‰
+note right: ä½ éš¾é“ä¸æ€•æˆ‘è¿™å®å‰‘ï¼Ÿ
 
-calabashThree -[#Green]> calabashThree :Âú²»ÔÚºõ
-calabashThree -[#Green]> snake : ¸æËß
-note left: Äã¸É´à°ÑËùÓĞµÄ±øÆ÷¶¼ÄÃ³öÀ´°É£¬ÎÒ»¹¿ÉÒÔÅãÄãÍæÍæ
+calabashThree -[#Green]> calabashThree :æ»¡ä¸åœ¨ä¹
+calabashThree -[#Green]> snake : å‘Šè¯‰
+note left: ä½ å¹²è„†æŠŠæ‰€æœ‰çš„å…µå™¨éƒ½æ‹¿å‡ºæ¥å§ï¼Œæˆ‘è¿˜å¯ä»¥é™ªä½ ç©ç©
 
-snake -[#Grey]> calabashThree : ¸æËß
-note right: Ö»ÒªÄã¶¥µÃ×¡ÎÒÈı½££¬ÎÒ¾Í½ÉĞµÍ¶½µ»¹Äã¸ç¸ç
+snake -[#Grey]> calabashThree : å‘Šè¯‰
+note right: åªè¦ä½ é¡¶å¾—ä½æˆ‘ä¸‰å‰‘ï¼Œæˆ‘å°±ç¼´æ¢°æŠ•é™è¿˜ä½ å“¥å“¥
 
-calabashThree -[#Green]> calabashThree :´ó´óµÄÑÛ¾¦ÀïĞ´ÂúÁËÌìÕæ
-calabashThree -[#Green]> snake : ¸æËß
-note left: ºÃ£¬Ëµ»°Ëã»°£¡ÚÀ£¬Âı×Å£¬Ë­ÒªÊÇÀµÆ¤£¬Ë­¾ÍÊÇØ«ÖÖ£¡
+calabashThree -[#Green]> calabashThree :å¤§å¤§çš„çœ¼ç›é‡Œå†™æ»¡äº†å¤©çœŸ
+calabashThree -[#Green]> snake : å‘Šè¯‰
+note left: å¥½ï¼Œè¯´è¯ç®—è¯ï¼è¯¶ï¼Œæ…¢ç€ï¼Œè°è¦æ˜¯èµ–çš®ï¼Œè°å°±æ˜¯å­¬ç§ï¼
 
-snake -[#Grey]> calabashThree : ¿´½££¡
+snake -[#Grey]> calabashThree : çœ‹å‰‘ï¼
 
-snake -[#Red]> calabashThree : Ôì³ÉÉËº¦
-note left: ±¦½£¹¥»÷
+snake -[#Red]> calabashThree : é€ æˆä¼¤å®³
+note left: å®å‰‘æ”»å‡»
 
-snake -[#Red]> calabashThree : Ôì³ÉÉËº¦
-note left: ±¦½£¹¥»÷
+snake -[#Red]> calabashThree : é€ æˆä¼¤å®³
+note left: å®å‰‘æ”»å‡»
 
-calabashThree -[#Green]> snake : ¸æËß
-note left: µ½µ×ÊÇ¸öÅ®ÈË£¬ÎÒµÄÍ·¿É²»ÊÇÃæÍÅÄóµÄ£¡
+calabashThree -[#Green]> snake : å‘Šè¯‰
+note left: åˆ°åº•æ˜¯ä¸ªå¥³äººï¼Œæˆ‘çš„å¤´å¯ä¸æ˜¯é¢å›¢æçš„ï¼
 
 @enduml
 
