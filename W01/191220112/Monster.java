@@ -1,5 +1,3 @@
-package W01.191220112;
-
 public class Monster extends Creature {
 
     int magic;
