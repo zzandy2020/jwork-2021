@@ -14,7 +14,7 @@ public class Scene {
         calabashThree.breakItems("魔镜");
 
         snake.mood("惊怒且痛苦");
-        scorpion.mood("无能狂怒,,嚎啕大哭");
+        scorpion.mood("无能狂怒,嚎啕大哭");
         scorpion.action("颤抖的手捧着稀碎的魔镜");
 
         calabashThree.speakTo(snake, "你们这些害人精还不快投降！");
@@ -39,7 +39,7 @@ public class Scene {
 
         snake.speakTo(calabashThree, "只要你顶得住我三剑，我就缴械投降还你哥哥");
 
-        calabashThree.mood("大大的眼睛里写着天真");
+        calabashThree.mood("大大的眼睛里写满了天真");
         calabashThree.speakTo(snake, "好，说话算话！诶，慢着，谁要是赖皮，谁就是孬种！");
 
         snake.speakTo(calabashThree, "看剑！");
@@ -47,12 +47,6 @@ public class Scene {
         snake.attack(calabashThree, 20);
 
         calabashThree.speakTo(snake, "到底是个女人，我的头可不是面团捏的！");
-
-        snake.speakTo(calabashThree, "呵，铁娃子别心急啊，你还不知道这刚柔阴阳剑的厉害呢！");
-        snake.action("用宝剑捆住三娃");
-
-        calabashThree.action("不断挣扎");
-        calabashThree.mood("这打脸来的猝不及防");
     }
 
     public static void main(String[] args) {
