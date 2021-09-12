@@ -48,13 +48,11 @@
 ```java
 batOne appear.
 batTwo appear.
-yellowBaby told batOne, 来吧！
+yellowBaby told batOne and batTwo, 来吧！
 batOne listened 来吧！
-yellowBaby told batTwo, 来吧！
 batTwo listened 来吧！
-batOne told yellowBaby, 你们跑不了啦！
+batOne told yellowBaby and grandFather, 你们跑不了啦！
 yellowBaby listened 你们跑不了啦！
-batOne told grandFather, 你们跑不了啦！
 grandFather listened 你们跑不了啦！
 batTwo say: 啊啊啊啊啊啊啊啊...
 yellowBaby say: 嗨呀呀呀呀呀呀呀呀呀呀！
@@ -111,6 +109,6 @@ uml如下：
 
 
 
-类图：uml文件夹中有png格式的、git push上来不知道为什么加载不出来
+类图：
 
-![diagram-12051360820843966974](D:/Typora Image/diagram-12051360820843966974-16313578738262.png)
+![image-20210911183237833](../../../../../Typora Image/image-20210911183237833.png)

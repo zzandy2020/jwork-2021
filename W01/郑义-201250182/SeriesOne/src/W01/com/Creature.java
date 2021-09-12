@@ -33,10 +33,21 @@ public abstract class Creature extends Being {
 
     public void speakTo(Creature[] creatures, String message) {
         // 同时告诉多人消息
-        for (Creature creature : creatures) {
-            System.out.println(this.name + " told " + creature.name + ", " + message);
-            creature.listen(message);
-        }
+       StringBuilder tellMessage = new StringBuilder();
+       tellMessage.append(this.name).append(" told ");
+       for (int i = 0; i < creatures.length; i++) {
+           if (i != creatures.length - 1) {
+               tellMessage.append(creatures[i].name).append(" and ");
+           } else {
+               tellMessage.append(creatures[i].name).append(", ");
+           }
+       }
+
+       tellMessage.append(message);
+       System.out.println(tellMessage);
+       for (Creature creature : creatures) {
+           creature.listen(message);
+       }
     }
 
     public void listen(String message) {
