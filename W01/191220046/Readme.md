@@ -2,11 +2,11 @@
 
 ###### 类型设计（建模）如下：
 
-![](D:\lyw\study\Courses\Third\Java\jwork-2021\W01\赖烨文-191220046\characters.png)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/hollowopk/jwork-2021/main/W01/191220046/uml/characters.puml)
 
 ###### 桥段场景如下：
 
-![](D:\lyw\study\Courses\Third\Java\jwork-2021\W01\赖烨文-191220046\timeline.png)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/hollowopk/jwork-2021/main/W01/191220046/uml/timeline.puml)
 
 ###### 得到运行结果：
 
