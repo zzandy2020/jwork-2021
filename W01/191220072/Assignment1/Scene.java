@@ -1,6 +1,6 @@
 package Assignment1;
 
-import java.util.ListIterator;
+import java.util.*;
 
 public class Scene {
     Scorpion scorpion;
@@ -13,11 +13,11 @@ public class Scene {
         snake = Snake.getInstance();
         bigbro = Bigbro.getInstance();
         centipede = new Monster(500, 10, 0, "centipede");
-        subtitle = new Subtitle("Assignment1/Dialogue.txt");
+        subtitle = new Subtitle();
     }
 
     void play(){
-        ListIterator<String> line = subtitle.Iterator();
+        Iterator<String> line = subtitle.Iterator();
         System.out.println("*******\nAction!\n*******");
         bigbro.speak(line.next());
         snake.pondering(2);

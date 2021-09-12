@@ -16,7 +16,7 @@ class Creature{
 
 }
 
-class Bigbro(){
+class Bigbro{
     - {static} singleton
 
     - Bigbro();
@@ -54,6 +54,16 @@ class Scorpion{
     + {static} main()
 }
 
-class 
+class Subtitle{
+    ~ Array<String> contentlist
+    ~ Subtitle()
+    + Iterator()
+    + {static} main()
+}
+
+Creature <|-- Monster
+Monster <|-- Scorpion
+Monster <|-- Snake
+Creature <|-- Bigbro
 
 @enduml
