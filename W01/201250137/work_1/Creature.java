@@ -77,5 +77,4 @@ public class Creature extends Being{
     public String toString(){
         return name;
     }
-    
 }
