@@ -5,10 +5,12 @@
 #### 类型设计
 
 ![](uml\characters.png)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/njuics/jwork-2021/master/W01/181860011/uml/characters.pu)
 
 #### 桥段场景
 
 ![](uml\timeline.png)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/njuics/jwork-2021/master/W01/181860011/uml/timeline.pu)
 
 #### 运行结果
     Butterfly tell CalabashBoy: "这是百草的甘露，天地间的精华。它是花中的琼浆，喝了它，幽香缭绕，如仙如梦，如痴如醉。".
