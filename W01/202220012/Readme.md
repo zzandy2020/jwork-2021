@@ -4,12 +4,12 @@
 
 类型设计（建模）如下：
 
-![](https://github.com/hogwartsfailure66/jwork-2021/blob/main/W01/%E5%90%B4%E6%AC%A3%E7%9E%B3-202220012/uml/1.png)
+![](https://github.com/hogwartsfailure66/jwork-2021/blob/main/W01/202220012/uml/1.png)
 
 
 桥段场景如下：
 
-![](https://github.com/hogwartsfailure66/jwork-2021/blob/main/W01/%E5%90%B4%E6%AC%A3%E7%9E%B3-202220012/uml/2.png)
+![](https://github.com/hogwartsfailure66/jwork-2021/blob/main/W01/202220012/uml/2.png)
 
 得到运行结果：
 
