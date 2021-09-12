@@ -1,6 +1,3 @@
-package proj;
-import proj.Rock;
-
 public class Creature extends Being {
 
     int health;
