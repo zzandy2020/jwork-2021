@@ -10,6 +10,7 @@
 
 ###### 得到运行结果：
 
+```
 Snake tell SixWa that 死到临头还嘴硬，看我来收拾你
 SixWa heard Snake said that 死到临头还嘴硬，看我来收拾你
 SixWa tell Snake that 好啊，我在这等着你，快来抓我吧
@@ -26,4 +27,5 @@ Snake tell SixWa that hahahahaha
 SixWa heard Snake said that hahahahaha
 Snake tell SixWa that 这顶帽子又厚又硬，你就是把脑袋撞开了也休想出来
 SixWa heard Snake said that 这顶帽子又厚又硬，你就是把脑袋撞开了也休想出来
+```
 
