@@ -74,15 +74,14 @@ public class CalabashBrothers extends Creature {
 
     public void throwWeapon(Creature creature) {
         // 扔武器受到的伤害和平时伤害一样
-        creature.receiveAttack(this.attack);
+        creature.receiveAttack(this.attack + 10);
     }
 
     public void moveBackward() {
-        // 向后退
-        // not implemented yet
+        System.out.println(this.name + " is at a disadvantage.");
     }
 
     public void crushStone() {
-        // not implemented yet.
+        System.out.println(this.name + " crush the stone!");
     }
 }

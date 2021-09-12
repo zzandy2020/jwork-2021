@@ -19,8 +19,8 @@ public class Human extends Creature{
         creature.say("Ouch! I am stumbled!");
     }
 
-    public void kickStone() {
-        // maybe no need
+    public void kickStone(Creature creature) {
+        System.out.println(this.name + " kicked the stone to stumbled " + creature);
     }
 
 }

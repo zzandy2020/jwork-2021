@@ -61,7 +61,7 @@ public class Scene {
         batTwo.move();
         batTwo.wantToAttack(yellowBaby);
         grandfather.speakTo(yellowBaby, "当心！");
-        grandfather.kickStone();
+        grandfather.kickStone(batTwo);
         grandfather.stumble(batTwo);
 
         // 黄娃抢走一号蝙蝠精武器，并且踢走他

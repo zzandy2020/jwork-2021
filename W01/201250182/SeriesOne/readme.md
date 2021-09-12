@@ -67,6 +67,7 @@ yellowBaby attacked batOne, and cause 20 damage
 batOne has received 20 damage.
 grandFather told yellowBaby,当心！
 yellowBaby listened 当心！
+grandFather kicked the stone to stumbled W01.com.Monster@1b6d3586
 batTwo has received 10 damage.
 batTwo say: Ouch! I am stumbled!
 yellowBaby grab batOne's weapon,
@@ -84,16 +85,71 @@ batTwo has received 30 damage.
 batTwo have weapon!
 batTwo attacked yellowBaby, and cause 30 damage
 yellowBaby has received 30 damage.
+yellowBaby is at a disadvantage.
 yellowBaby lose weapon!
 batTwo say : 哈哈哈哈哈哈...
 batOne throw the stone!
 grandFather say: 哈....坏了
+yellowBaby crush the stone!
 batTwo has received 10 damage.
 yellowBaby say : 哈哈哈哈哈哈...
 yellowBaby 发动技能：金刚不坏之身！
 batTwo have weapon!
 yellowBaby grab batTwo's weapon,
-batTwo has received 20 damage.
+batTwo has received 30 damage.
+batTwo is dead!
+batOne escape!
+背景音乐暂停播放！batOne appear.
+batTwo appear.
+yellowBaby told batOne and batTwo, 来吧！
+batOne listened 来吧！
+batTwo listened 来吧！
+batOne told yellowBaby and grandFather, 你们跑不了啦！
+yellowBaby listened 你们跑不了啦！
+grandFather listened 你们跑不了啦！
+batTwo say: 啊啊啊啊啊啊啊啊...
+yellowBaby say: 嗨呀呀呀呀呀呀呀呀呀呀！
+背景音乐开始播放！
+yellowBaby attacked batOne, and cause 20 damage
+batOne has received 20 damage.
+yellowBaby attacked batOne, and cause 20 damage
+batOne has received 20 damage.
+yellowBaby attacked batOne, and cause 20 damage
+batOne has received 20 damage.
+yellowBaby attacked batOne, and cause 20 damage
+batOne has received 20 damage.
+grandFather told yellowBaby,当心！
+yellowBaby listened 当心！
+grandFather kicked the stone to stumbled W01.com.Monster@1b6d3586
+batTwo has received 10 damage.
+batTwo say: Ouch! I am stumbled!
+yellowBaby grab batOne's weapon,
+yellowBaby 踢走了 batOne
+yellowBaby say : 哈哈哈哈哈哈...
+yellowBaby have weapon!
+yellowBaby attacked batTwo, and cause 30 damage
+batTwo has received 30 damage.
+batTwo have weapon!
+batTwo attacked yellowBaby, and cause 30 damage
+yellowBaby has received 30 damage.
+yellowBaby have weapon!
+yellowBaby attacked batTwo, and cause 30 damage
+batTwo has received 30 damage.
+batTwo have weapon!
+batTwo attacked yellowBaby, and cause 30 damage
+yellowBaby has received 30 damage.
+yellowBaby is at a disadvantage.
+yellowBaby lose weapon!
+batTwo say : 哈哈哈哈哈哈...
+batOne throw the stone!
+grandFather say: 哈....坏了
+yellowBaby crush the stone!
+batTwo has received 10 damage.
+yellowBaby say : 哈哈哈哈哈哈...
+yellowBaby 发动技能：金刚不坏之身！
+batTwo have weapon!
+yellowBaby grab batTwo's weapon,
+batTwo has received 30 damage.
 batTwo is dead!
 batOne escape!
 背景音乐暂停播放！
