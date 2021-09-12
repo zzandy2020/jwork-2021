@@ -4,5 +4,7 @@
 
 #### 类型设计
 
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/njuics/jwork-2021/master/W01/example/uml/characters.pu)
+
 
 

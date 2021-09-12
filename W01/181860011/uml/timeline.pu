@@ -6,11 +6,11 @@ actor 小蝴蝶 as butterfly #Pink
 actor 蝙蝠精 as bat #LightBlue
 actor 蛇精 as snake #RoyalBlue
 entity 莲花座 as lotus 
-entity 树叶门 as leave #Green
+entity 树叶门 as leaf #Green
 
 note over gemStone #LightGrey :在葫芦娃脖子上
 / note over lotus #LightGrey :莲座里有四杯酒 
-/ note over leave #LightGrey :关闭
+/ note over leaf #LightGrey :关闭
 
 butterfly -[#Grey]> calabashBoy:talk 
 note over calabashBoy,butterfly #Pink
@@ -60,7 +60,7 @@ note left #LightSalmon
     嗯好，好，好，好，啊嗯...
 end note
 
-calabashBoy -[#Green]> calabashBoy:sleep
+calabashBoy -[#Green]> calabashBoy:blackout
 
 butterfly -[#Green]> butterfly:lieDown
 
@@ -69,9 +69,9 @@ note over calabashBoy,butterfly #Pink
     小哥哥，小哥哥，你快醒醒啊。
 end note
 
-bat -[#Darkorange]> leave:push
+bat -[#Darkorange]> leaf:push
 
-leave -[#Green]> leave:open
+leaf -[#Green]> leaf:open
 
 bat -[#Green]> bat:laugh
 
@@ -91,7 +91,7 @@ end note
 
 bat -[#Darkorange]> butterfly:attack
 
-bat -[#Darkorange]> gemStone:grab
+bat -[#Darkorange]> gemStone:stealGemStone
 
 calabashBoy -[#Green]> calabashBoy:lose gemStone
 

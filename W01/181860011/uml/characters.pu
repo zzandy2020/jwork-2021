@@ -9,11 +9,13 @@ class Organism{
     #String[] possession 
 
     +talk()
+    +hear()
     +laugh()
     +move()
     +grab()
     +lose()
     +handTo()
+    +takeDamage()
 }
 
 class CalabashBoy{
@@ -21,7 +23,7 @@ class CalabashBoy{
     +eyeGlow()
     +getDrunk()
     +drunkTalk()
-    +sleep()
+    +blackout()
 }
 
 class Butterfly{
@@ -32,13 +34,16 @@ class Bat{
     +push()
     +fly()
     +attack()
+    +stealGemStone()
 }
 
 class Snake{
 
 }
 
-class Thing
+class Thing{
+    getPushed()
+}
 
 class FlowerWine{
     #bool isFull
@@ -47,10 +52,11 @@ class FlowerWine{
 
 class Lotus{
     #FlowerWine[] wines
-    +FlowerWine drinkFromLotus()
+    +FlowerWine grabFromLotus()
 }
 
-class Leave{
+class Leaf{
+    #bool isOpen
     +open()
 }
 
@@ -65,7 +71,7 @@ Organism <|-- Butterfly
 Organism <|-- Bat
 Organism <|-- Snake
 Thing <|-- Gemstone
-Thing <|-- Leave
+Thing <|-- Leaf
 Thing <|-- FlowerWine
 Thing <|-- Lotus
 Lotus o-- FlowerWine
