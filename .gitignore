@@ -3,7 +3,6 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,maven,code,visualstudio,windows,linux,node,eclipse,intellij+all
 
 ### Code ###
-.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
