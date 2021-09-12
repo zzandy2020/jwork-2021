@@ -4,12 +4,12 @@
 
 类型设计（建模）如下：
 
-![](C:\Users\14336\Desktop\Javawork\work01\work01\uml\characters.png)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Mars-Z777/jwork-2021/main/W01/191220079/work01/uml/characters.pu)
 
 
 桥段场景如下：
 
-![](C:\Users\14336\Desktop\Javawork\work01\work01\uml\timeline.png)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Mars-Z777/jwork-2021/main/W01/191220079/work01/uml/timeline.pu)
 
 
 
