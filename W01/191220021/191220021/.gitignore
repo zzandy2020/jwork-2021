@@ -1,0 +1,4 @@
+# My configurations:
+.vscode
+# 排除.class 文件
+*.class
