@@ -14,11 +14,12 @@ public class Scene {
         snake.sayMagicalWords();
         snake.throwSomethingTo(sixWa,"grass");
         sixWa.beInsertedByGrass();
-        snake.throwSomethingTo(sixWa,"cover");
+        snake.throwSomethingTo(sixWa,"hat");
         sixWa.hideFromAttack();
-        sixWa.becomeInvisible();
+        sixWa.useSkill();
         sixWa.beTrapped();
         snake.laughAt(sixWa);
+        snake.speakTo(sixWa,"这顶帽子又厚又硬，你就是把脑袋撞开了也休想出来");
     }
 
     public static void main(String[] args) {

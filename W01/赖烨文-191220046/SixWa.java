@@ -8,7 +8,9 @@ public class SixWa extends HuLuWa{
         System.out.println(name+" hide from attack");
     }
 
-    public void becomeInvisible() {
+    @Override
+    public void useSkill() {
+        super.useSkill();
         System.out.println(name+" became invisible");
     }
 
