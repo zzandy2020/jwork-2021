@@ -5,7 +5,7 @@ public class Creature extends Being{
     double aggressivity;
     String name;
     String[] memoryContent;
-    int numberOfOnceRemembered = -1;       //指向最新记得的信息，从新到旧的顺序为当前指向的信息向左移动
+    int numberOfOnceRemembered = -1;        //指向最新记得的信息，从新到旧的顺序为当前指向的信息向左移动
 
     public Creature(double hp, int memorySize, double defence, double aggressivity, String name){
         this.hp = hp;
@@ -77,4 +77,5 @@ public class Creature extends Being{
     public String toString(){
         return name;
     }
+    
 }
