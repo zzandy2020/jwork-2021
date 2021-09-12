@@ -1,4 +1,4 @@
-package homework;
+//package W01.191220137;
 
 public class Crystal extends Creature {
     Crystal(int hp, int ap, int dp) {
