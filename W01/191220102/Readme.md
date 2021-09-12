@@ -4,11 +4,11 @@
 
 类型设计（建模）如下：
 
-![image-20210912183146632](C:\Users\Sun Wenge\AppData\Roaming\Typora\typora-user-images\image-20210912183146632.png)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/OraOraOra0ra/jwork-2021/master/W01/191220102/uml/characters.puml)
 
 桥段场景如下：
 
-![image-20210912195323526](C:\Users\Sun Wenge\AppData\Roaming\Typora\typora-user-images\image-20210912195323526.png)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/OraOraOra0ra/jwork-2021/master/W01/191220102/uml/timeline.puml)
 
 得到运行结果：
 
