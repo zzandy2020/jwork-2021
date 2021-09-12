@@ -4,7 +4,7 @@
 @startuml
 actor       老头   as oldman 
 actor       蛇精    as snake  #Black 
-actor      蝎子精    as scorpion   #Purple
+actor       蝎子精    as scorpion   #Purple 
 entity      蛛网  as spiderweb #White
 
 spiderweb -[#Green]> spiderweb : 开 
@@ -17,7 +17,7 @@ note right
 end note
 
 oldman -[#Grey]> snake : 告诉
-note left: 哼!有这么请的吗？
+note left: 哼!有这么请的么？
 
 snake -[#Grey]> oldman : 告诉
 note right
