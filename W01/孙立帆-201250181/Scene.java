@@ -12,6 +12,7 @@ public class Scene{
         initCharacters();
         initLine();
     }
+
     public void initCharacters(){
         Sword sword = new Sword(100);
         Monster snake = new Monster(200, 20, "snake", sword);
@@ -27,6 +28,7 @@ public class Scene{
         monsters.put("beast",beast);
         ironKid = new CalabashBrother(200, 30, "ironKid");
     }
+
     public void initLine(){
         line = new ArrayList<>();
         line.add("你这断了头的宝剑有什么好怕的，还有什么招快使出来，平头剑又不会长个。");
@@ -42,6 +44,7 @@ public class Scene{
         line.add("这混小子，这回总算栽在我手里了");
         line.add("难道靠你这么一槌，这铁娃子就完蛋了吗？（轻蔑地笑）");
     }
+    
     public void play(){
         Monster snake = monsters.get("snake");
         Monster rat = monsters.get("rat");

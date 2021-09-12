@@ -1,4 +1,5 @@
 public class Chain extends Weapon{
+    
     public Chain(int endure){
         super(endure, "Chain");
     }

@@ -1,4 +1,5 @@
 public class Sword extends Weapon{
+    
     public Sword(int endure){
         super(endure, "Sword");
     }

@@ -1,4 +1,5 @@
 public class Creature{
+
 private int health;
 private int attack;
 private String name;
@@ -6,11 +7,13 @@ private String name;
 public String toString(){
     return name;
 }
+
 public Creature(int health,int attack,String name){
     this.attack = attack;
     this.health = health;
     this.name = name;
 }
+
 public void talk(String word,Creature listener){
     System.out.println(this+" speaks to "+listener+" : "+word);
     listener.heard(word);
