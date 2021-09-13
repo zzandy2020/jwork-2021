@@ -38,7 +38,7 @@ public class Scene {
         spiderWeb.close();
 
     }
-    
+
     public static void main(String[] args) {
         new Scene().play();
     }
