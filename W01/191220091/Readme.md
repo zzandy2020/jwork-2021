@@ -3,16 +3,10 @@
 选取视频 https://www.bilibili.com/video/BV1zQ4y1d7dQ?p=4 中 2:23 ~ 3:20 的桥段
 
 类型设计（建模）如下：
-
-![characters](E:\Java project\W01\191220091\uml\characters\characters.png)
-
-
-
+http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/njuics/jwork-2021/master/W01/example/uml/timeline.pu
 
 
 桥段场景如下：
-
-![](E:\Java project\W01\191220091\uml\timeline\timeline.png)
 
 
 
