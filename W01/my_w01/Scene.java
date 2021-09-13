@@ -1,4 +1,4 @@
-package my_w01;
+package W01.my_w01;
 
 public class Scene {
 
@@ -47,7 +47,6 @@ public class Scene {
 
             sixbaby.attackByWeapon(snake,2,hammer);
             snake.hugHead();
-            snake.speakTo(sixbaby,"woc SO DIZZYYYYYYY!");
 
             scorpion.attack(sixbaby);
             sixbaby.attackByWeapon(scorpion,3,hammer);

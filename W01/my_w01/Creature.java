@@ -1,6 +1,4 @@
-package my_w01;
-
-import java.util.WeakHashMap;
+package W01.my_w01;
 
 public class Creature extends Being{
     int health;//血量

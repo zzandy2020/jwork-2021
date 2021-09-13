@@ -1,4 +1,4 @@
-package my_w01;
+package W01.my_w01;
 
 public class Being {
     //生物的姓名和坐标属性

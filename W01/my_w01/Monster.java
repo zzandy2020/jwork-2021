@@ -1,4 +1,4 @@
-package my_w01;
+package W01.my_w01;
 
 public class Monster extends Creature {
     int magic;//攻击加倍！
@@ -44,5 +44,6 @@ public class Monster extends Creature {
     public void hugHead(){
         //抱头
         System.out.println( name + " wants to protect the stupid brain.");
+        System.out.println( name + "os: OMG!!");
     }
 }
