@@ -1,5 +1,3 @@
-package W01.com;
-
 /**
  * @author Zyi
  */
