@@ -1,4 +1,4 @@
-package W01.my_w01;
+package W01.S201250215;
 
 public class Creature extends Being{
     int health;//血量
