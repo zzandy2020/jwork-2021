@@ -35,8 +35,6 @@ class CalabashBrothers
 
 Creature --|> Being
 
-Human --|> Creature
-
 Monster --|> Creature
 
 CalabashBrothers --|> Creature
