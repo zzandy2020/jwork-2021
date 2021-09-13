@@ -1,5 +1,3 @@
-package Assignment1;
-
 public class Bigbro extends Creature{
     private static Bigbro singleton = new Bigbro();
     private Bigbro(){

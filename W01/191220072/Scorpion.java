@@ -1,5 +1,3 @@
-package Assignment1;
-
 public class Scorpion extends Monster{
     private static Scorpion  singleton = new Scorpion();
     String weapon;

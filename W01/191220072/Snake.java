@@ -1,5 +1,3 @@
-package Assignment1;
-
 public class Snake extends Monster {
     private static Snake singleton = new Snake();
     private Snake(){

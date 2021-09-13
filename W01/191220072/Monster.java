@@ -1,5 +1,3 @@
-package Assignment1;
-
 public class Monster extends Creature{
     Monster(int health, int attack, int defense, String name){
         super(health, attack, defense, name);
