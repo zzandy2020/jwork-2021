@@ -1,4 +1,4 @@
-package work_1;
+
 
 public class StoneDoor extends Being{
     public void open(){

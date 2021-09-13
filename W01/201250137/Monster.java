@@ -1,4 +1,4 @@
-package work_1;
+
 
 public class Monster extends Creature{
     Broadsword sword = new Broadsword(10); //先拿上大宝剑，具体干啥再想想

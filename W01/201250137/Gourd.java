@@ -1,4 +1,4 @@
-package work_1;
+
 
 public class Gourd extends Creature{
     int specialAbility;    //未使用

@@ -1,4 +1,4 @@
-package work_1;
+
 
 public class Scene {
     Gourd gourdThird;
