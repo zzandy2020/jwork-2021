@@ -1,5 +1,3 @@
-package W01.191220112;
-
 public class Entity extends Being {
 
     int status;

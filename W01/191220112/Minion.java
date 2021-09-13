@@ -1,5 +1,3 @@
-package W01.191220112;
-
 public class Minion extends Monster {
 
     public Minion(String name, int hp, int ap, int dp, int mp) {
