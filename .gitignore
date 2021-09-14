@@ -671,7 +671,6 @@ __pycache__/
 # Tabs Studio
 *.tss
 
-*.vsdx
 # Telerik's JustMock configuration file
 *.jmconfig
 
@@ -709,5 +708,3 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,maven,code,visualstudio,windows,linux,node,eclipse,intellij+all
-
-*.vsdx
