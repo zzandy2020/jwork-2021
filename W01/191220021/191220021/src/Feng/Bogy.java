@@ -17,4 +17,20 @@ public class Bogy extends Creature
             atkTarget.TakeDamage(baseDamage, this);
         }
     }
+
+    public void Hug(Creature hugTarget)
+    {
+        if(hugTarget != null)
+        {
+            System.out.println(m_name + " hugged " + hugTarget.Name() + "\n");
+        }
+    }
+
+    public void Kiss(Creature target)
+    {
+        if(target != null)
+        {
+            System.out.println(m_name + " gives " + target.Name() + " a kiss\n");
+        }
+    }
 }
