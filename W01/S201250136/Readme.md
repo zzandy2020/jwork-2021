@@ -4,11 +4,11 @@
 
 类型设计如下
 
-![characters](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/jianhenglian/jwork-2021/master/W01/S201250136/uml/timeline.puml))
+![characters](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/niuics/jwork-2021/master/W01/S201250136/uml/timeline.puml))
 
 桥段场景如下
 
-![timeline](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/jianhenglian/jwork-2021/master/W01/S201250136/uml/timeline.puml))
+![timeline](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/njuics/jwork-2021/master/W01/S201250136/uml/timeline.puml))
 
 
 
