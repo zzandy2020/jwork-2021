@@ -2,10 +2,10 @@
 
 类型设计（建模）如下：
 
-![](../uml/characters.png)
+![](uml/characters.png)
 桥段场景如下：
 
-![](../uml/timeline.png)
+![](uml/timeline.png)
 
 运行结果：
 
