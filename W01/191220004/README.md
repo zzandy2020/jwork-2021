@@ -6,11 +6,13 @@
 
 类型设计（建模）如下：
 
-![](F:\Junior\Java\hw1\191220004\out\uml\characters\characters.png)
+![image](https://user-images.githubusercontent.com/59854231/133269683-17ce81e4-89a4-4dd9-9835-48497bdbc836.png)
+
 
 桥段场景如下：
 
-![](F:\Junior\Java\hw1\191220004\out\uml\timeline\timeline.png)
+![image](https://user-images.githubusercontent.com/59854231/133269887-2513281e-8e04-4a02-9291-d06402e49631.png)
+
 
 得到运行结果：
 
