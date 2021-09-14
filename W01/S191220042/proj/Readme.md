@@ -1,15 +1,12 @@
 选取视频 https://www.bilibili.com/video/BV1zQ4y1d7dQ?p=5 中 2:16 ~ 3:26 的桥段
 
 类型设计（建模）如下：
-http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/njuics/jwork-2021/master/W01/example/uml/timeline.pu
 
-
-
-
-
+![](../uml/characters.png)
 桥段场景如下：
 
-http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/191220042/jwork-2021/blob/main/W01/S191220042/uml/characters.puml
+![](../uml/timeline.png)
+
 运行结果：
 
 ```
