@@ -4,11 +4,11 @@
 
 类型设计（建模）如下：
 
-<img src="C:\Users\yjq\Desktop\someCode\W01\191300069\uml\characters.png" alt="characters" style="zoom:50%;" />
+![](https://github.com/halipai/MYIMAGES/blob/main/characters.png?raw=true)
 
 桥段场景如下：
 
-<img src="C:\Users\yjq\Desktop\someCode\W01\191300069\uml\characters.png" alt="timeline" style="zoom:50%;" />
+![](https://github.com/halipai/MYIMAGES/blob/main/timeline.png?raw=true)
 
 得到运行结果：
 ```
