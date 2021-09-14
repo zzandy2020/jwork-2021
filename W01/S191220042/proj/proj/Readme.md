@@ -9,8 +9,7 @@ http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubuserconten
 
 桥段场景如下：
 
-http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/njuics/jwork-2021/master/W01/example/uml/timeline.p
-
+http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/191220042/jwork-2021/blob/main/W01/S191220042/uml/characters.puml
 运行结果：
 
 ```
