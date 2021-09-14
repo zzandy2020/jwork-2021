@@ -17,7 +17,7 @@ public class Scene {
         blinder=new Human("二娃",100,0);
         frog1=new Monster("小黄",100,10);
         frog2=new Monster("小蓝",100,10);
-        mvp=new proj.Trident(20);
+        mvp=new Trident(20);
     }
 
     public void play() {

@@ -11,6 +11,7 @@ public class Pangolin extends Creature{
         return pan;
     }
 
+    @Override
     public void move(){
         System.out.println("欸嘿，哒哒哒");
     }
