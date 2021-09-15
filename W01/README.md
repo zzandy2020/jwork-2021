@@ -18,36 +18,36 @@
 huluwa laughs loudly.
 monster laughs loudly.
 monster's eyes become bright.
-huluwa take up the largefork
-huluwa throw largefork to stone
-The large fork is inserted into the stone    
-huluwa put the largefork straight       
-huluwa pull out the largefork
-beesoldier start to use spear
+huluwa take up the largefork.
+huluwa throw largefork to stone.
+The large fork is inserted into the stone.    
+huluwa put the largefork straight.       
+huluwa pull out the largefork.
+beesoldier start to use spear.
 spear attack huluwa!
-huluwa start to use largefork
-spear resist the attack from spear   
-largefork fight back against beesoldier
-beesoldier has received 30 points of attack
+huluwa start to use largefork.
+spear resist the attack from spear.   
+largefork fight back against beesoldier.
+beesoldier has received 30 points of attack.
 beesoldier's hp has been reduced to 20 points!
 arrow attack huluwa!
-arrow resist the attack from arrow
-huluwa says 好痒，好痒...啊哈哈哈哈哈哈哈
+arrow resist the attack from arrow.
+huluwa says 好痒，好痒...啊哈哈哈哈哈哈哈!
 huluwa laughs loudly.
 monster roar angrily.
-monster says 哇呀呀呀呀呀呀呀
-monster start to use broadsword@3f99bd52
+monster says 哇呀呀呀呀呀呀呀.
+monster start to use broadsword.
 broadsword attack huluwa!
-huluwa start to use largefork
-broadsword resist the attack from broadsword
+huluwa start to use largefork.
+broadsword resist the attack from broadsword.
 broadsword attack huluwa!
-huluwa dodge to avoid the attack
+huluwa dodge to avoid the attack.
 hp remains!
 monster attack huluwa!
-huluwa fight back against monster
+huluwa fight back against monster.
 The large fork break into halves.
-huluwa throw largefork to monster
+huluwa throw largefork to monster.
 monster catch on the largefork.
-huluwa throw largefork to monster
+huluwa throw largefork to monster.
 monster catch on the largefork.
 ```
