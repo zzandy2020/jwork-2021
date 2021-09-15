@@ -1,0 +1,218 @@
+
+
+public class Scene{
+  
+   huluwa sanwa;
+   monster scorpion;
+   beesoldier beesoldier;
+   arrow arrow;
+   broadsword broadsword;
+   largefork largefork;
+   spear  spear;
+   stone  stone;
+   
+   public Scene() {
+    sanwa=new huluwa(100, 30, 300);
+    scorpion=new  monster(200,40,100);
+    beesoldier=new beesoldier(50,10,0);
+    arrow=new arrow();
+    broadsword= new broadsword();
+    largefork=new largefork();
+    spear=new spear();
+    stone=new stone();
+}
+    public void play() {
+    
+    sanwa.laugh(sanwa);
+    
+    scorpion.laugh(scorpion);
+    scorpion.brighteyes(scorpion);
+   
+    sanwa.takeup(sanwa, largefork);
+    sanwa.throwto(sanwa,largefork,stone);
+
+    largefork.insert(stone);
+
+    sanwa.putstraight(sanwa, largefork);
+    sanwa.pullout(sanwa, largefork);
+
+    beesoldier.use(beesoldier, spear);
+    spear.attack(spear,sanwa);
+
+    sanwa.use(sanwa,largefork);
+    largefork.resist(largefork, spear);
+    largefork.fightback(largefork,beesoldier);
+    beesoldier.receiveattack(beesoldier,30);
+
+    arrow.attack(arrow, sanwa);
+    sanwa.resist(sanwa, arrow);
+
+    sanwa.talk(sanwa, "好痒，好痒...啊哈哈哈哈哈哈哈");
+    sanwa.laugh(sanwa);
+
+    scorpion.roar(scorpion);
+    scorpion.talk(scorpion, "哇呀呀呀呀呀呀呀");
+    scorpion.use(scorpion, broadsword);
+   
+    broadsword.attack(broadsword, sanwa); 
+    sanwa.use(sanwa, largefork);
+    largefork.resist(largefork, broadsword);
+    
+    broadsword.attack(broadsword, sanwa); 
+    sanwa.dodge(sanwa);
+    
+    scorpion.attack(scorpion, sanwa);
+    sanwa.fightback(sanwa, scorpion);
+    largefork.breakintohalves();
+
+    broadsword.attack(broadsword, sanwa); 
+    sanwa.dodge(sanwa);
+    sanwa.kick(sanwa, scorpion);
+    sanwa.talk(sanwa, "去!");
+    scorpion.slipdown(scorpion);
+
+    sanwa.throwto(sanwa, largefork, scorpion);
+    scorpion.catchon(scorpion, largefork);
+    sanwa.throwto(sanwa, largefork, scorpion);
+    scorpion.catchon(scorpion, largefork);
+
+}
+    public static void main(String []args){
+        new Scene().play();
+       }
+}
+
+
+public class arrow extends goods
+{
+    }
+    
+    
+public class beesoldier extends  creature
+{   public beesoldier(int hp,int ap,int dp) {
+    health=hp;
+    attack=ap;
+    defense=dp;
+    }
+    public void receiveattack(beesoldier beesoldier,int attack){
+        System.out.println( " beesoldier has received "+attack+" points of attack");
+        if(attack>health) System.out.println("beesoldier is dead");
+        else  {health-=attack; System.out.println(beesoldier + " 's hp has been reduced to "+health +" points!");}
+    }}
+    
+    
+public class being {
+    public void attack(being being1,being being2){
+    System.out.println(being1 + " attack " +being2+"!");
+}
+    public void resist(being being1,being being2){
+        System.out.println(being2 +" resist the attack from " + being2);}
+
+    public void fightback(being being1,being being2){
+        System.out.println(being1+" fight back against "+being2);
+    }
+    
+    }
+    
+    public class broadsword extends goods
+{
+    }
+
+public class creature extends being{
+    int health;
+    int attack;
+    int defense;
+    
+   
+    
+    public void talk(creature creature,String something){
+        System.out.println(creature+" says "+something);
+    }
+    
+    public void laugh(creature creature){
+        System.out.println(creature + " laughs loudly.");
+      }
+    public void use(creature creature,goods goods){
+        System.out.println(creature + " start to use "+goods);
+    }
+    
+}
+
+
+public class goods extends being
+{
+    }
+    
+    
+    public class huluwa extends creature{
+    public huluwa(int hp,int ap,int dp) {
+        health=hp;
+        attack=ap;
+        defense=dp;
+        }
+   public void kick(huluwa huluwa,creature creature) {
+        System.out.println(huluwa + " kick "+ creature+" heavily");
+    }
+    public void putstraight(huluwa huluwa,goods goods){
+        System.out.println(huluwa+" put the "+goods+" straight");
+    }
+    public void takeup(huluwa huluwa,goods goods){
+        System.out.println(huluwa+" take up the "+goods);
+    }
+    public void pullout(huluwa huluwa,goods goods){
+        System.out.println(huluwa +" pull out the "+goods);
+    }
+    public void throwto(huluwa huluwa,being being1,being being2){
+        System.out.println(huluwa+" throw "+being1+" to "+being2);
+    }
+    public void dodge(huluwa huluwa){
+        System.out.println(huluwa+" dodge to avoid the attack");
+        System.out.println("hp remains!");
+    }
+   
+}
+
+public class largefork extends goods{
+    public void insert(goods goods){
+        System.out.println("The large fork is inserted into the "+goods);
+    }
+    public void breakintohalves(){
+        System.out.println("The large fork break into halves.");
+    }
+ 
+
+
+}
+
+
+public class monster  extends creature{
+    public monster(int hp,int ap,int dp) {
+        health=hp;
+        attack=ap;
+        defense=dp;
+        }
+    
+    public void slipdown(monster monster){
+        System.out.println(monster+" slip down heavily.");
+        health-=50;
+        System.out.println(monster+" 's hp has been reduced to 150 points!");}
+    
+         public void brighteyes(monster monster){
+        System.out.println(monster+"'s eyes become bright.");
+    }
+    public void roar(monster monster){
+        System.out.println(monster+" roar angrily.");
+    }
+    public void catchon(monster monster,goods goods){
+        System.out.println(monster+" catch on the "+goods+".");
+    }
+   
+}
+
+public class spear  extends goods
+{
+    }
+    
+    public class stone  extends goods
+{
+    }
