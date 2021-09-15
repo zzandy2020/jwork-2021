@@ -5,14 +5,15 @@ import java.util.ArrayList;
 class Creature extends Entity {
     // 拿一样东西做防御，防御的hp先掉。拿一个人做肉盾是可行的
     Entity armour;
-    // 拿一样东西做武器。
+    // 拿一样东西做武器, 若有武器用武器的攻击值
     Entity weapon;
     Wand wand;
 
     Creature(String name, int hp, int damage) {
         super(name, hp, damage);
     }
-    void speak(String words) {
+
+    void say(String words) {
         System.out.println(name + "说：“" + words + "”。");
     }
 
@@ -23,9 +24,10 @@ class Creature extends Entity {
     // 生物不同的地方在于可以拿其他东西防御
     @Override
     void getHarm(int damage) {
-
+        
         if (armour == null || armour.alive == false) {
             armour = null;
+            System.out.println(name + "受到" + damage + "点伤害。");
             hp -= damage;
             if (hp <= 0) {
                 alive = false;
@@ -36,41 +38,45 @@ class Creature extends Entity {
             if (armour.alive == false)
                 armour = null;
         }
-        System.out.println(name + "受到" + damage + "点伤害。");
+        
     }
 
     void attack(Entity e) {
+        System.out.println(name + "攻击" + e.name);
         if (weapon == null || weapon.alive == false) {
+            weapon = null;
             e.getHarm(damage);
         } else {
-            weapon = null;
             e.getHarm(weapon.damage);
         }
-        System.out.println(name + "攻击" + e.name);
+        
     }
 
     void holdArmour(Entity e) {
         if(e instanceof Creature)
             System.out.println(name+"挟持"+e.name+"作为人质");
         else
-            System.out.println(name+"捡起"+e.name+"作为防御");
+            System.out.println(name+"持有"+e.name+"作为防御");
         
         armour = e;
     }
 
     void holdWeapon(Entity e) {
-        System.out.println(name + "捡起" + e.name + "作为武器");
+        weapon = e;
+        System.out.println(name + "持有" + e.name + "作为武器");
     }
 
-    void holdWand(Wand wand) {
-        System.out.println(name + "捡起" + wand.name + "作为法宝");
+    void holdWand(Wand w) {
+        wand = w;
+        System.out.println(name + "持有" + wand.name + "作为法宝");
     }
 
-    void useWandTo(ArrayList<Entity> targets) {
-        if (wand != null) {
+    void useWandTo(Entity[] targets) {
+        if (wand != null && wand.alive == true) {
             System.out.println(name + "使用" + wand.name);
-            wand.useSuperPower(targets);
-        }
+            wand.useMagic(targets);
+        }else
+            wand = null;
     }
 
     void throwTo(Entity e) {
