@@ -1,9 +1,22 @@
 201870060 张子瑜
+
+
 选取视频 https://www.bilibili.com/video/BV1zQ4y1d7dQ?p=6 中2:20 ~ 3:15的桥段
+
+
 类型设计
+
 ![NP9HRiCW38RVEKKUjuTUOUfLdE0658eZspIQkjrznA4fMX_Wvol6NwrUHO6rt9ER4eWC8yOykwS3LPYMZq_7A56qXbkSWuu7_6st9qRGmbWBOjOX82GD5ezwYnvlc0MTGjfh4vGvrBq8rlLyAfHKDd3FmItHUgn5HHdshlMai61P3QT4nL1WsfHgykHdxBJkb4MHgvMak7hQSlrovFqf_4Qf](https://user-images.githubusercontent.com/90622345/133399358-95634dd9-4be2-4ad2-854d-1f7eddd0788b.png)
-桥段场景![jPHHJzDG5CVV-obkqcUNAMlJzO70okwNC3mGgKg28vdrmRU2MRR2tDYeJhCHWp9T33D6MIHkez-5xDoM9xw2fxbjRmDcagYzJRZyppc_-x_dD5jwQgsLhMTFDgMr1zPMcSpE71Yy83BDqtms6ud1OGE6-_wtSoAhniA2giHwRmSg8qnMA2rgabcoDgpd19eEaGl5S2LIpIRoiahnYIN_on0B](https://user-images.githubusercontent.com/90622345/133399386-94ae7fa4-bf1b-4e68-87e6-1d5402c05548.png)
+
+桥段场景
+
+!
+[jPHHJzDG5CVV-obkqcUNAMlJzO70okwNC3mGgKg28vdrmRU2MRR2tDYeJhCHWp9T33D6MIHkez-5xDoM9xw2fxbjRmDcagYzJRZyppc_-x_dD5jwQgsLhMTFDgMr1zPMcSpE71Yy83BDqtms6ud1OGE6-_wtSoAhniA2giHwRmSg8qnMA2rgabcoDgpd19eEaGl5S2LIpIRoiahnYIN_on0B](https://user-images.githubusercontent.com/90622345/133399386-94ae7fa4-bf1b-4e68-87e6-1d5402c05548.png)
+
+
 运行结果
+
+
 huluwa@2a84aee7 laughs loudly.
 monster@a09ee92 laughs loudly.
 monster@a09ee92's eyes become bright.
