@@ -1,4 +1,4 @@
-选取视频 [](https://www.bilibili.com/video/BV1zQ4y1d7dQ?p=5) 中 4:00 以后的部分桥段
+选取视频 [https://www.bilibili.com/video/BV1zQ4y1d7dQ?p=5](https://www.bilibili.com/video/BV1zQ4y1d7dQ?p=5) 中 4:00 以后的部分桥段
 
 类型设计（建模）如下：
 
