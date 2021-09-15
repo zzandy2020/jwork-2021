@@ -1,5 +1,5 @@
-public class stretchHandMonster extends Monster {
-    public stretchHandMonster(int hp,int ap,int dp){
+public class StretchHandMonster extends Monster {
+    public StretchHandMonster(int hp, int ap, int dp){
         super(hp,ap,dp);
     }
     public void catchAttack(Creature c, int ap){

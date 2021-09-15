@@ -1,7 +1,5 @@
-
-
-public class huluKingKong extends Creature {
-    public huluKingKong(int hp,int ap,int dp){
+public class HuluKingKong extends Creature {
+    public HuluKingKong(int hp, int ap, int dp){
         health=hp;
         attack=ap;
         defense=dp;
