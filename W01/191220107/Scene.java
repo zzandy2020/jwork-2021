@@ -9,6 +9,7 @@ public class Scene {
     Pangolin pangolin;
 
     public Scene() {
+        trap = new Trap("trap that shoots");
         spider_web = new SpiderWeb("spider web in the cave");
         stone = new Stone("stone by the opening");
         oldman = new Human("old Man");
