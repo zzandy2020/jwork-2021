@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,maven,code,visualstudio,windows,linux,node,eclipse,intellij+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,maven,code,visualstudio,windows,linux,node,eclipse,intellij+all
 
+# class file
+*.class
+
 ### Code ###
 .vscode/*
 !.vscode/settings.json
