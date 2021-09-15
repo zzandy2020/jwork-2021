@@ -1,4 +1,4 @@
-//package W01.191220107;
+package stu191220107;
 
 public class Creature extends Being {
     int health;
