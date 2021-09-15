@@ -6,7 +6,7 @@
 
 ## 类型设计
 示意图如下：
-
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/ricky9w/jwork-2021/main/W01/S191220119/uml/characters.pu)
 
 所有物体均抽象为 `Being` 类，生物为 `Creatrue` 类，情节中涉及的道具为 `Prob` 类，对于这一片段，本片段中道具就包括武器 `Weapon` 类和普通的石头 `Stone` 类
 
@@ -18,7 +18,7 @@ attack()方法可以接收可选参数 `weapon` ，使用武器可以为攻击�
 
 ## 桥段场景
 示意图如下：
-
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/ricky9w/jwork-2021/main/W01/S191220119/uml/timeline.pu)
 
 ## 运行结果
 ```
