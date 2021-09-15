@@ -6,12 +6,12 @@
 
 类设计建模如下：
 
- ![P1类设计](D:\Desktop\高级java\P1类设计.png)
+ ![P1类设计](.\uml\characters.png)
 
 桥段场景如下：
 
- ![P1时序](D:\Desktop\高级java\P1时序.png)
+ ![P1时序](.\uml\timeline.png)
 
 得到运行结果如下：
 
- ![P1运行结果](D:\Desktop\高级java\P1运行结果.png)
+ ![P1运行结果](.\uml\result.png)
