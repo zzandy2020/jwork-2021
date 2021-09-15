@@ -15,5 +15,34 @@
 
 #### 得到运行结果：
 
-![Image text](https://raw.githubusercontent.com/yincjr/NJU_JAVA/main/img/result.png?token=AQUHLJTR3JLNUABPH3H4PKLBIHTQI)
+    Huluwa Appears.
+    蝎子 said to 蝎子 :' HAHAHAHA'
+    蝎子 heard: HAHAHAHA
+    蛇精 said to 大哥 :' 喂～葫芦娃～怎么样啊？做了个好梦吧？我告诉你，你的丹田已经被我封住了！你就别想再撒野了！'
+    大哥 heard: 喂～葫芦娃～怎么样啊？做了个好梦吧？我告诉你，你的丹田已经被我封住了！你就别想再撒野了！
+    小蜘蛛 attack 大哥 of 25 points
+    蛇精 said to 大哥 :' 啊！我真不想杀掉你。你又嫩又蛮又可爱，真讨人喜欢！你只要愿意呀….mua~mua~你就做我的娃子吧！'
+    大哥 heard: 啊！我真不想杀掉你。你又嫩又蛮又可爱，真讨人喜欢！你只要愿意呀….mua~mua~你就做我的娃子吧！
+    蝎子 said to 蝎子 :' HAHAHAHA'
+    蝎子 heard: HAHAHAHA
+    大哥 attack 蛇精 of 5 points
+    蛇精 drops 5XP
+    大哥 gains 5XP
+    大哥 now have 5 XP
+    大哥 now have 0 Level
+    大哥 attack 蝎子 of 5 points
+    蝎子 drops 5XP
+    大哥 gains 5XP
+    Level UP!
+    大哥 now have 0 XP
+    大哥 now have 1 Level
+    大哥 said to 大哥 :' HAHAHAHA'
+    大哥 heard: HAHAHAHA
+    蝎子 is losing patience! 8 patience left.
+    蝎子 said to 蝎子 :' I'm freakin pissed.'
+    蝎子 heard: I'm freakin pissed.
+    蛇精 is losing patience! 8 patience left.
+    蛇精 said to 蛇精 :' I'm freakin pissed.'
+    蛇精 heard: I'm freakin pissed.
+    蝎子 attack 大哥 of 13 points
 
