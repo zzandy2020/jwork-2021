@@ -4,6 +4,7 @@ import W01.example.Monster;
 
 public class Scene {
 
+    Trap trap;
     SpiderWeb spider_web;
     Stone stone;
     Human oldman;
@@ -23,6 +24,7 @@ public class Scene {
     }
 
     public void play() {
+        pangolin.cleanObstruction(trap);
         pangolin.cleanObstruction(spider_web);
         soldier2.yawn();
         soldier1.speakTo(soldier2, "大王叫我们严加防守，可不能马虎啊");
