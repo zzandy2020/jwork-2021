@@ -24,9 +24,7 @@ class Human{
     int energy
 }
 
-class Prob
-
-class Weapeon{
+class Prob{
     int addition
 }
 

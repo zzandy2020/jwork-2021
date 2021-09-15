@@ -1,7 +1,8 @@
 public class Human extends Creature{
     int energy;
 
-    Human(int hp, int ap, int dp){
+    Human(String sname, int hp, int ap, int dp){
+        name = sname;
         health = hp;
         attack = ap;
         defense = dp;
@@ -21,7 +22,7 @@ public class Human extends Creature{
     }
 
     @Override
-    public void attack(Creature creature, int ap, Weapon wp){
+    public void attack(Creature creature, int ap, Prob wp){
         if(energy > 0){
             int totalAp = ap + wp.addition;
             System.out.println(String.format("%s attack %s with %s of %d points", name, creature.name, wp.name, totalAp));

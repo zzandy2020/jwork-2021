@@ -36,7 +36,7 @@ note right
     我在这呢
 end note
 
-waSixHuman -[#Grey]> smallStone : 攻击
+waSixHuman -[#Grey]> smallStone : 拿起
 waSixHuman -[#Red]> centipedeMonster : 攻击
 
 centipedeMonster -[#Green]> waSixHuman : 告诉

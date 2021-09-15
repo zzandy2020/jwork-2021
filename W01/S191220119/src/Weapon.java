@@ -1,7 +1,6 @@
 public class Weapon extends Prob{
-    int addition;
-
-    Weapon(int ad){
+    Weapon(String sname, int ad){
+        name = sname;
         addition = ad;
     }
 }

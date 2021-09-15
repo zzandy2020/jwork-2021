@@ -19,5 +19,26 @@ attack()方法可以接收可选参数 `weapon` ，使用武器可以为攻击�
 ## 桥段场景
 示意图如下：
 
-## 运行结果
 
+## 运行结果
+```
+六娃 said to 癞蛤蟆: 哈哈哈你来抓我吧，抓不着我了吧，我在这呢，哈哈哈
+癞蛤蟆 heard 哈哈哈你来抓我吧，抓不着我了吧，我在这呢，哈哈哈
+癞蛤蟆 said to 六娃: 好哇，你往哪里跑！
+六娃 heard 好哇，你往哪里跑！
+癞蛤蟆 attack 六娃 with 三叉戟 of 1 points
+蜈蚣精 said to 六娃: 看你往哪走
+六娃 heard 看你往哪走
+蜈蚣精 said to 蜈蚣精: 诶，在哪呢
+蜈蚣精 heard 诶，在哪呢
+六娃 said to 蜈蚣精: 我在这呢
+蜈蚣精 heard 我在这呢
+六娃 attack 蜈蚣精 with 石头 of 2 points
+蜈蚣精 am attacked of 2 points
+蜈蚣精 said to 六娃: 我的妈呀，你饶了我吧
+六娃 heard 我的妈呀，你饶了我吧
+六娃 attack 蜈蚣精 with 狼牙棒 of 4 points
+蜈蚣精 am attacked of 4 points
+六娃 said to 蜈蚣精: 你们这些妖精，无恶不作，捉了我兄弟，害我爷爷，我今天要好好教训你们这群混蛋
+蜈蚣精 heard 你们这些妖精，无恶不作，捉了我兄弟，害我爷爷，我今天要好好教训你们这群混蛋
+```
