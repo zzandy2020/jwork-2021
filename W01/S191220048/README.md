@@ -14,4 +14,4 @@
 
 得到运行结果如下：
 
- ![P1运行结果](https://obohe.com/i/2021/09/15/12fyliq.png)
+ ![P1运行结果](http://m.qpic.cn/psc?/V12JquZh1rXgeL/45NBuzDIW489QBoVep5mcURmjo*bo6jXmIYTYPpKium2EBL6Iq77m8Dwc4KcdhgX7ijraiYvs0Gz35w4UYeGA9z*upCnhwINO5pVruRYK.k!/b&bo=*QEgAwAAAAADF.0!&rf=viewer_4)
