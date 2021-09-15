@@ -1,5 +1,3 @@
-package stu191220107;
-
 public class Being {
     String name;
 

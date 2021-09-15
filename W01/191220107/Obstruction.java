@@ -1,5 +1,3 @@
-//package W01.191220107;
-
 public class Obstruction extends Being {
 
     String operation;

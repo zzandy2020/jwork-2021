@@ -1,7 +1,3 @@
-import W01.example.Monster;
-
-//package W01.191220107;
-
 public class Scene {
 
     Trap trap;
@@ -13,14 +9,14 @@ public class Scene {
     Pangolin pangolin;
 
     public Scene() {
-        spider_web = SpiderWeb("spider web in the cave");
-        stone=Stone("stone by the opening")
-        old_man = Human("old Man");
-        monster = monster("the scorpion");
-        soldier1 = Soldier("soldier with a patch");
-        soldier2 = Soldier("soider who's brave");
-        soldier3 = Soldier("soider who's a bug");
-        pangolin = Pangolin("the friendly pangolin");
+        spider_web = new SpiderWeb("spider web in the cave");
+        stone = new Stone("stone by the opening");
+        oldman = new Human("old Man");
+        monster = new Monster("the scorpion");
+        soldier1 = new Soldier("soldier with a patch");
+        soldier2 = new Soldier("soider who's brave");
+        soldier3 = new Soldier("soider who's a bug");
+        pangolin = new Pangolin("the friendly pangolin");
     }
 
     public void play() {
@@ -50,10 +46,10 @@ public class Scene {
         pangolin.speak("啊啊啊啊");
         monster.speakTo(pangolin, "嘿嘿嘿嘿");
         pangolin.speak("你们这些坏蛋");
-        monster.throw(pangolin);
+        monster._throw(pangolin);
         soldier1.arrest(pangolin);
         soldier2.arrest(pangolin);
-        soldier3.speakTo(monster,"报告大王，大事不好，老头与瞎眼葫芦逃跑啦")
+        soldier3.speakTo(monster, "报告大王，大事不好，老头与瞎眼葫芦逃跑啦");
         monster.angry();
         monster.attack(pangolin);
         pangolin.isDead();

@@ -1,5 +1,3 @@
-//package W01.191220107;
-
 public class Soldier extends Creature {
     Soldier(String _name) {
         name = _name;

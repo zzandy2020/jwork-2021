@@ -1,5 +1,3 @@
-//package W01.191220107;
-
 public class Pangolin extends Creature {
     Pangolin(String _name) {
         name = _name;

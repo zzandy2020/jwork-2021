@@ -1,5 +1,3 @@
-package stu191220107;
-
 public class Creature extends Being {
     int health;
     int attack;
@@ -24,16 +22,16 @@ public class Creature extends Being {
         target.getHurt(attack);
     }
 
-    public void cleanObstruction(Item target, boolean op) {
-        System.out.println(name + (op ? " do " : " undo ") + target.operation + " on item " + target);
+    public void cleanObstruction(Obstruction target) {
+        System.out.println(name + " do " + target.operation + " on item " + target);
     }
 
-    public void speakTo(String words, Creature target) {
+    public void speakTo(Creature target, String words) {
         System.out.println(name + " says to " + target + ": " + words);
     }
 
-    public void speak(String words, Creature target) {
-        System.out.println(name + " says " + target + ": " + words);
+    public void speak(String words) {
+        System.out.println(name + " says: " + words);
     }
 
     public void move() {
