@@ -1,4 +1,3 @@
-package java01;
 
 public class _Wine extends Wine {
     public _Wine() {alcohol = 10;}

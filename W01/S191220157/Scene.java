@@ -1,4 +1,4 @@
-package java01;
+
 
 public class Scene {
     Human human;//父类类型能声明子类对象，构造函数也调用子类的，但调用不了子类方法。

@@ -1,4 +1,3 @@
-package java01;
 
 public class Human extends Creature {
     int drunk;
