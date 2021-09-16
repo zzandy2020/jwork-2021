@@ -1,4 +1,4 @@
-package java01;
+
 
 public class Wine {
     protected int alcohol, rest;

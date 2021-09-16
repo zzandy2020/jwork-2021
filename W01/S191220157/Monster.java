@@ -1,4 +1,3 @@
-package java01;
 
 public class Monster extends Creature {
     int satisfaction = 10;
