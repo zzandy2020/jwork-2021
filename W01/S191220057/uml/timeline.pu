@@ -2,52 +2,52 @@
 ' 7:44 ~ 3:46
 
 @startuml
-actor       ´©É½¼×   as manis
-actor       ·ÉÊó    as flyrat  #Black
-actor       Ğ«×Ó¾«    as scorpion   #Purple
-entity      ó¯òë¾«  as cockroach #White
+actor       ç©¿å±±ç”²   as manis
+actor       é£é¼     as flyrat  #Black
+actor       èå­ç²¾    as scorpion   #Purple
+entity      èŸ‘è‚ç²¾  as cockroach #White
 
-manis -[#Blue]> manis : ÌÓÅÜ
+manis -[#Blue]> manis : é€ƒè·‘
 
-scorpion -[#Red]> manis : Ôì³ÉÉËº¦
-note left: Æş
+scorpion -[#Red]> manis : é€ æˆä¼¤å®³
+note left: æ
 
-manis -[#Grey]> scorpion : ¸æËß
+manis -[#Grey]> scorpion : å‘Šè¯‰
 note right
-    ÄãÃÇÕâĞ©»µµ°..
+    ä½ ä»¬è¿™äº›åè›‹..
 end note
 
-scorpion -[#Red]> manis : Ôì³ÉÉËº¦
-note left: ÈÓ³ö
+scorpion -[#Red]> manis : é€ æˆä¼¤å®³
+note left: æ‰”å‡º
 
-flyrat -[#Red]> manis : Ôì³ÉÉËº¦
-note left: ²æ×¡
+flyrat -[#Red]> manis : é€ æˆä¼¤å®³
+note left: å‰ä½
 
-manis -[#Blue]> manis : ÕõÔú
+manis -[#Blue]> manis : æŒ£æ‰
 
-cockroach -[#Grey]> scorpion : ¸æËß
+cockroach -[#Grey]> scorpion : å‘Šè¯‰
 note right
-    ±¨¸æ´óÍõ£¡´óÊÂ²»ºÃ£¡
-    ÀÏÍ·ÓëÏ¹ÑÛºùÂ«ÌÓÅÜÀ²£¡
+    æŠ¥å‘Šå¤§ç‹ï¼å¤§äº‹ä¸å¥½ï¼
+    è€å¤´ä¸ççœ¼è‘«èŠ¦é€ƒè·‘å•¦ï¼
 end note
 
-scorpion -[#Blue]> scorpion : ·¢Å­
-note right: ÕâÕâÕâÕâ....
+scorpion -[#Blue]> scorpion : å‘æ€’
+note right: è¿™è¿™è¿™è¿™....
 
-flyrat -[#Red]> manis : Ôì³ÉÉËº¦
-note left: ÈÓ³ö
+flyrat -[#Red]> manis : é€ æˆä¼¤å®³
+note left: æ‰”å‡º
 
-scorpion -[#Red]> manis : Ôì³ÉÉËº¦
-note left: Æş×¡
+scorpion -[#Red]> manis : é€ æˆä¼¤å®³
+note left: æä½
 
-manis -[#Grey]> scorpion : ¸æËß
+manis -[#Grey]> scorpion : å‘Šè¯‰
 note right
-    ·Å¿ªÎÒ£¡ÄãÃÇÕâĞ©»µµ°£¡
+    æ”¾å¼€æˆ‘ï¼ä½ ä»¬è¿™äº›åè›‹ï¼
 end note
 
-scorpion -[#Grey]> manis : ¸æËß
+scorpion -[#Grey]> manis : å‘Šè¯‰
 note right
-    È¥ÄãµÄ£¡
+    å»ä½ çš„ï¼
 end note
 
 
