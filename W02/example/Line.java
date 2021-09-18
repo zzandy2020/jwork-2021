@@ -53,9 +53,9 @@ public class Line {
     }
 
     public String printLine() {
-        String lineString = "";
+        String lineString = "\t";
         for (Position p : positions) {
-            lineString += p.gourd.toString();
+            lineString +=  p.gourd.toString();
         }
         return(lineString);
     }

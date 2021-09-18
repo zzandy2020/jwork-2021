@@ -35,7 +35,7 @@ public class Geezer {
 
         System.out.println();
 
-        line.printLine();
+        System.out.println(line.printLine());
 
         Sorter s = new Sorter(line.getArray());
 
@@ -43,14 +43,12 @@ public class Geezer {
 
         System.out.println(parsePlan(s.plan).length);
 
-        
-
         String result = "";
-        for (String step : Geezer.parsePlan(s.plan)){
+        for (String step : Geezer.parsePlan(s.plan)) {
             Geezer.execute(step, line);
 
             result += line.printLine();
-            result += "[frame]\n";
+            result += "\n[frame]\n";
 
         }
 
@@ -58,6 +56,8 @@ public class Geezer {
         try {
             writer = new BufferedWriter(new FileWriter("result.txt"));
             writer.write(result);
+            writer.flush();
+            writer.close();
 
         } catch (IOException e) {
             // TODO Auto-generated catch block
