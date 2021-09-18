@@ -10,6 +10,7 @@
 !.vscode/extensions.json
 *.code-workspace
 
+
 ### Eclipse ###
 .metadata
 bin/
@@ -708,3 +709,6 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,maven,code,visualstudio,windows,linux,node,eclipse,intellij+all
+
+
+**/*.txt

@@ -2,73 +2,59 @@ package W02.example;
 
 public class Line {
 
-    private Position[] positions = new Position[7];
+    public Line(int length) {
+        this.positions = new Position[length];
+    }
 
-    public void put(Gourd gourd, int i) {
+    private Position[] positions;
+
+    public void put(Linable linable, int i) {
         if (this.positions[i] == null) {
             this.positions[i] = new Position(null);
         }
-        this.positions[i].hold(gourd);
+        this.positions[i].setLinable(linable);
     }
 
-    public Gourd get(int i) {
+    public Linable get(int i) {
         if ((i < 0) || (i > positions.length)) {
             return null;
         } else {
-            return positions[i].gourd;
+            return positions[i].linable;
         }
-    }
-
-    public void swapGourd(Gourd g1, Gourd g2) {
-
-        Position p1 = null, p2 = null;
-
-        for (Position p : positions) {
-            if ((p.gourd == g1) || (p.gourd == g2)) {
-                if (p1 == null) {
-                    p1 = p;
-                } else {
-                    p2 = p;
-                }
-            }
-        }
-        Gourd g = null;
-        g = p1.gourd;
-        p1.gourd = p2.gourd;
-        p2.gourd = g;
-
     }
 
     class Position {
 
-        private Gourd gourd;
+        private Linable linable;
 
-        Position(Gourd gourd) {
-            this.gourd = gourd;
+        Position(Linable linable) {
+            this.linable = linable;
         }
 
-        public void hold(Gourd gourd) {
-            this.gourd = gourd;
+        public void setLinable(Linable linable) {
+            this.linable = linable;
+            linable.setPosition(this);
         }
+
     }
 
-    public String printLine() {
+    @Override
+    public String toString() {
         String lineString = "\t";
         for (Position p : positions) {
-            lineString +=  p.gourd.toString();
+            lineString += p.linable.toString();
         }
-        return(lineString);
+        return lineString;
     }
 
-    public int[] getArray() {
+    public Linable[] toArray() {
+        Linable[] linables = new Linable[this.positions.length];
 
-        int[] gourds = new int[7];
-
-        for (int i = 0; i < 7; i++) {
-            gourds[i] = positions[i].gourd.rank();
+        for (int i = 0; i < linables.length; i++) {
+            linables[i] = positions[i].linable;
         }
 
-        return gourds;
+        return linables;
 
     }
 
