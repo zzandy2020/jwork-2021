@@ -1,5 +1,9 @@
 package W02.example;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Geezer {
 
     private static String[] parsePlan(String plan) {
@@ -41,13 +45,24 @@ public class Geezer {
 
         
 
+        String result = "";
         for (String step : Geezer.parsePlan(s.plan)){
             Geezer.execute(step, line);
 
-            line.printLine();
+            result += line.printLine();
+            result += "[frame]\n";
 
         }
 
+        BufferedWriter writer;
+        try {
+            writer = new BufferedWriter(new FileWriter("result.txt"));
+            writer.write(result);
+
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 
     }
 

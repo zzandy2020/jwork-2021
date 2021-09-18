@@ -52,12 +52,12 @@ public class Line {
         }
     }
 
-    public void printLine() {
+    public String printLine() {
         String lineString = "";
         for (Position p : positions) {
             lineString += p.gourd.toString();
         }
-        System.out.println(lineString);
+        return(lineString);
     }
 
     public int[] getArray() {
