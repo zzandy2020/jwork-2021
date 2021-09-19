@@ -4,12 +4,9 @@ public class BubbleSorter implements Sorter {
 
     private int[] a;
 
+    @Override
     public void load(int[] a) {
         this.a = a;
-    }
-
-    public void bubbleSort() {
-
     }
 
     private void swap(int i, int j) {
